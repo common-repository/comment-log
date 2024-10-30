@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<restta version="0.2">
+	<appClass name="cLog" version="1.0" detail="http://peopletab.com/cLog.html">
+		<pathPrefix></pathPrefix>
+		<resource name="clog_processor">
+			<input name="from" type="get" >
+				<queryKey>from</queryKey>
+			</input>
+			<input name="comment" type="get" >
+				<queryKey>comment</queryKey>
+			</input>
+			<uriPattern>
+				/wp-admin/admin.php?page=clog-confirm
+			</uriPattern>
+		</resource>
+	</appClass>
+</restta>
